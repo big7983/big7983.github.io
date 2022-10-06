@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+ 
+  table {
+    width: 50%;
+    border: 1px solid;
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+ th, td {
+    text-align: left;
+    padding: 16px;
+  }
+
+  h2 {text-align: center;
+    }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+ 
